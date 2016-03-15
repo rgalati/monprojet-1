@@ -101,7 +101,7 @@ public class Resultats {
 	/***** LE CODE DE CETTE MÉTHODE NE DOIT EN AUCUN CAS ÊTRE MODIFIÉ !!! *****/
 	public static void main (String[] args) {
 		String fileName = "Resultats.txt";
-			System.out.println("Traitement des résultats contenus dans \"" + fileName + "\" :");
+			System.out.println("Traitement des résultats connu contenus dans \"" + fileName + "\" :");
 			stockerResultats(FileToStr.read(fileName));
 			afficheResultats();
 	} // main
